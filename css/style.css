@@ -1,0 +1,283 @@
+@media screen and (max-width:1440px){
+
+	#nav {
+		width: auto;
+		float: none;
+	}
+	#body {
+		width: auto;
+		float: none;
+	}
+
+    #footer {
+		width: auto;
+		float: none;
+	}
+}
+
+
+/*header*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.logo_icon {
+    
+    background-image: url(../assets/Logo-icon.jpeg);
+    min-height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    border-radius: 50%;
+
+}
+.nav_container {
+    display: flex;
+}
+
+.nav_item {
+    
+    padding: 8px;
+}
+
+/*body*/
+
+.main_title {
+    text-align: center;
+}
+
+.main_content {
+    display: flex;
+    margin: 15px;
+}
+
+.main_content_item {
+    
+    width: 100%;
+    min-height: 340px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.main_content-item {
+    width: 100%;
+    min-height: 340px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8080806b;
+    border-radius: 4px;
+
+}
+
+.main_content_banner {
+    
+    width: 100%;
+    min-height: 225px;
+    background: url(../assets/Logo-icon.jpeg);
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.main_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: baseline;
+}
+
+.item_icon {
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-image: url(https://picsum.photos/200);
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.item-icon {
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-image: url(https://picsum.photos/200);
+    margin: 10px;
+    margin-top: 25px;
+}
+
+input {
+    padding: 12px 9px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height:fit-content;
+    
+}
+
+button {
+    width: 75%;
+    min-height: 32px;
+    background-color: rgb(41 7 245 / 64%);
+    border: none;
+    margin-top: 15px;
+    border-radius: 4px
+
+}
+
+
+.custom-select {
+    min-width: 75%;
+  }
+  
+  .custom-select select {
+    width: 100%;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+  }
+
+.benefit-icon {
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-image: url(https://picsum.photos/200);
+    margin: 10px;
+    margin-top: 35px;
+}
+
+.benefit-item {
+    display: flex;
+}
+
+.Page {
+    display: flex;
+    justify-content: center;
+    background-color: #00000038;
+}
+
+.closing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px groove;
+    border-top: 2px groove;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1440px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: blue;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 1440px) {
+  .prev, .next,.text {font-size: 11px}
+}
